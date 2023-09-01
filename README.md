@@ -1,2 +1,3 @@
 # React
-Use `chmod +x run.sh` command first then run it(`./run.sh`)
+First run `./install.sh`.  
+Then run `./run.sh` to start the server  
