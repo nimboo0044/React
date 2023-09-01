@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Try () {
+function Mypage () {
   return <h1> This is a Try </h1>
 }
 
-export default Try;
+export default Mypage;
