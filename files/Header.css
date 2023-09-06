@@ -1,0 +1,107 @@
+header{
+  width: 100vw;
+  height: 10vw;
+  background: #fff9f7;
+  color: orange;
+  font: 3vw arial;
+  position: fixed;
+  z-index: 101;
+}
+
+.align{
+  display: grid;
+  place-items: center;
+  float: left;
+  height: 10vw;
+}
+
+.sideBarBtn{
+  left: 0;
+  width: 10vw;
+  color: #fff9f7;
+  background: orange;
+  border-radius: 20% 40% 50% 40%;
+  position: relative;
+}
+
+.bar{
+  border-radius: 999px;
+  width: 50%;
+  height: 10%;
+  background: #fff9f7;
+  position: absolute;
+  top: 45%;
+  transition: all 500ms;
+}
+
+.bar:nth-child(1){
+  width: 40%;
+  top: 30%;
+}
+
+.bar:nth-child(3){
+  width: 40%;
+  top: 60%;
+}
+
+.title{
+  font-size: 5vw;
+  font-weight: 600;
+  width: 40vw;
+  position: relative;
+}
+
+.title a{
+  color: inherit;
+}
+
+.searchBar{
+  width: 8vw;
+  height: 8vw;
+  float: right;
+  border-radius: 50% 40% 20% 40%;
+  border: solid orange .5vw;
+  transform: translate(-.5vw, .5vw);
+  position: relative;
+  transition: all 500ms;
+}
+
+.searchBarBtn{
+  position: absolute;
+  float: right;
+  width: 6vw;
+  height: 6vw;
+  top: 1vw;
+  right: 1vw;
+}
+
+.searchBarInp{
+  width: 30vw;
+  height: 7vw;
+  position: absolute;
+  border-radius: 999px;
+  top: .5vw;
+  left: .5vw;
+  border: none;
+  background: #ffd9a7;
+  padding: 0 2vw;
+  box-sizing: border-box;
+  font-size: 2.5vw;
+  transition: all 500ms;
+}
+
+@keyframes br {
+  from{
+    border-radius: 20% 30% 50% 40%;
+  }to{
+    border-radius: 2vw 2vw 0 0;
+  }
+}
+
+@keyframes brr {
+  from{
+    border-radius: 2vw 2vw 0 0;
+  }to{
+    border-radius: 20% 40% 50% 40%;
+  }
+}
