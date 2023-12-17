@@ -1,6 +1,7 @@
 #! /usr/bin/zsh
 #! /usr/bin/bash
 #! /data/data/com.termux/files/usr/bin/bash
+#! /data/data/com.termux/files/usr/bin/zsh
 
 cd ./SimpleWebsite/src
 npm run dev
